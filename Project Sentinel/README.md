@@ -59,7 +59,8 @@ Create a `.env` file in the project root directory and add your credentials:
 ```env
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_key
-MONGODB_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
+MONGO_DATABASE=database_name
 ```
 
 **Security:** Never commit API keys, passwords or database connection strings to GitHub. Always store credentials in a `.env` file and add `.env` to `.gitignore`.
